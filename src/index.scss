@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+$primary_font: 'Poppins', sans-serif;
+$secondary_font: 'Roboto Slab', serif;
+$black_color : #000000;
+// Classes 
+
+.primaryFont {
+  font-family: $primary_font;
+}
+
+.secondaryFont {
+  font-family: $secondary_font;
+}
+
+
+.headingLine {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  display: block;
+  margin: 0;
+  // color: $black_color;
+  width: fit-content;
+  &::after {
+    position: absolute;
+    content: '';
+    left: 13rem;
+    width: 12rem;
+    top: 50%;
+    height: 0.125rem;
+    transform: translateY(-50%);
+    border-radius: 0.375rem;
+    background-image: linear-gradient(to right ,#fa5252 , #dd2476);
+
+  }
+}
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1280px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
