@@ -1,0 +1,26 @@
+header {
+    padding-block: 3rem;
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                margin-bottom: 0.25rem;
+                margin-inline: 10px;
+                padding-inline: 1.25rem;
+                padding-block: 0.625rem;
+                font-size: 13px;
+                font-weight: 500;
+                background: #ffffff;
+                border-radius: 6px;
+                color: #44566c;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+            }
+            .linkIcon {
+                margin-right: 0.5rem;
+                width: 20px;
+            }
+        }
+    }
+}

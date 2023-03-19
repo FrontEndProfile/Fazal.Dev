@@ -1,12 +1,11 @@
+import Routing from './routes/Navigates';
 import './App.scss';
-import Routing from './routes/Routing';
+import './components/Wrapper/Wrapper.scss';
+import Navigates from './routes/Navigates';
 function App() {
   return (
     <>
-    <Routing />
-      <div className='container g-0'>
-        <h1 className='text-center headingLine'>About Me</h1>
-      </div>
+      <Navigates />
     </>
   );
 }
