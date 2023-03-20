@@ -16,6 +16,17 @@ header {
                 line-height: 20px;
                 display: flex;
                 align-items: center;
+                transition-timing-function: cubic-bezier(.4,0,.2,1);
+                transition-duration: .3s;
+                transition-property: all;
+                &:hover {
+                    background-image: linear-gradient(to right ,rgb(250, 82, 82) , rgb(221, 36, 118));
+                    color: white;
+                    img {
+                        filter: brightness(0) saturate(100%) invert(100%) sepia(3%) saturate(473%) hue-rotate(281deg) brightness(110%) contrast(100%);
+                        transition: .4s cubic-bezier(.4,0,.2,1) all;
+                    }
+                }
             }
             .linkIcon {
                 margin-right: 0.5rem;

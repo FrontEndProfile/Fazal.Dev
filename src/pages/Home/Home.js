@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
+import Intro from '../../components/Intro/Intro'
 const Home = () => {
   return (
     <>
@@ -7,7 +8,9 @@ const Home = () => {
       <main className='wrapper'>
         <div className='container g-0'>
           <Header />
-          <h1>Home</h1>
+          <section className='introPageHome'>
+            <Intro />
+          </section>
         </div>
       </main>
 
