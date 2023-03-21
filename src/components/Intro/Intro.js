@@ -11,7 +11,7 @@ const Intro = () => {
     return (
         <>
             <section className='introPage'>
-                <div className='container-fluid g-0'>
+                <div className='container-fluid g-0 h-100'>
                     <div className='row'>
                         <div className='col'>
                             <div className='introPageFrame'>

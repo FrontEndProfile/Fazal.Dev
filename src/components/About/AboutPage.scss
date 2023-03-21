@@ -2,12 +2,14 @@
     padding-top: 40px;
     grid-gap: 40px;
     justify-content: space-between;
+
     .WhoAmHead {
         font-size: 25px;
         font-weight: 500;
         margin-bottom: 10px;
         line-height: 37.5px;
     }
+
     .WhoAmContent {
         line-height: 28px;
         color: #44566c;
@@ -16,6 +18,7 @@
         margin-bottom: 10px;
     }
 }
+
 .infoMain {
     .infoMainHead {
         font-size: 25px;
@@ -23,4 +26,106 @@
         color: #000000;
         margin-block: 20px;
     }
+
+    .infoMainGap {
+        grid-row-gap: 24px;
+        margin-bottom: 48px;
+    }
+}
+
+.infoMainComponent {
+    display: flex;
+
+    .infoMainComponentImg {
+        width: 3rem;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px 4px 6px 0px;
+        width: 48px;
+        height: 46px;
+        margin-right: 10px;
+
+        img {
+            width: 22px;
+            max-width: 22px;
+            color: #e93b81;
+        }
+    }
+
+    .infoTag {
+        color: #44566c;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .infoDetails {
+        margin-top: 4px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        font-weight: 500;
+
+        a {
+            text-decoration: none;
+            color: #000000;
+
+            &:hover {
+                color: #fa5252;
+            }
+        }
+
+    }
+}
+
+.WhoAmImage {
+    max-width: 330px;
+    width: 100%;
+    border-radius: 35px;
+}
+.whatIDo {
+    .infoMain {
+        .infoMainGap {
+            justify-content: space-between;
+            grid-gap: 2rem;
+            .infoMainComponent {
+                padding: 1.5rem;
+                grid-column-gap: 1rem;
+                background: rgb(252, 244, 255);
+                border-radius: 12px;
+                overflow: hidden;
+                .whatIDoImage {
+                    margin-right: 0;
+                    max-width: 40px;
+                    min-width: 40px;
+                }
+                .infoMainComponentContent {
+                    .infoTag {
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: #000000;
+                        margin-bottom: 8px;
+                    }
+                    .infoDetails {
+                        .infoDetailsText {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 32px;
+                            color: #44566c;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+.whatIDoHead {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 53px;
+    color: #000000;
+    margin-bottom: 20px;
 }

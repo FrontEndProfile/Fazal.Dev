@@ -53,7 +53,12 @@ $container-max-widths: (
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 
-
+// Center in child el
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 // mainPage Ui Global Design 

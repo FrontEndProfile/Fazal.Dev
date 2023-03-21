@@ -6,7 +6,7 @@ const Home = () => {
     <>
 
       <main className='wrapper'>
-        <div className='container g-0'>
+        <div className='container g-0 h-100'>
           <Header />
           <section className='introPageHome'>
             <Intro />
