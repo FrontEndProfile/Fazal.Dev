@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import infoPhone from '../../assets/images/infoPhone.svg'
 import aboutCardOne from '../../assets/images/aboutCardOne.svg'
-
+import Slider from '../Slider/Slider'
 import './AboutPage.scss'
 const AboutPage = () => {
     return (
         <>
-            <section className='mainPage'>
+            <section className='mainPage pb-0'>
                 <div className='container-fluid g-0 text-start primaryFont'>
                     <div className='row'>
                         <div className='col'>
@@ -160,7 +160,7 @@ const AboutPage = () => {
                                 </div>
                                 <div className='row infoMainGap g-0'>
 
-                                    <div className='col-xl-4 col-md-6'>
+                                    <div className='col-xl col-md-6'>
                                         <div className='infoMainComponent xyz'>
                                             <div className='whatIDoImage'>
                                                 <img src={aboutCardOne} alt='' className='img-fluid mw-100' />
@@ -212,6 +212,8 @@ const AboutPage = () => {
                             </div>
                         </div>
                     </div>
+                    <Slider />
+
 
                 </div>
             </section>

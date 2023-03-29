@@ -1,0 +1,25 @@
+.ClientSlides {
+    padding-top: 40px;
+    background: #F8FBFB;
+    border-radius: 12px;
+}
+.ClientSlidesHead {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-align: center;
+}    
+.ClientSlidesMain {
+    padding-inline: 30px !important;
+    padding-bottom: 40px !important;
+    .item {
+        border-radius: 12px;
+        overflow: hidden;
+        width: 100%;
+        cursor: pointer;
+        img {
+            width: 100%;
+        }
+    }
+}
