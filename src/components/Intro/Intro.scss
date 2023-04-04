@@ -44,5 +44,9 @@
             transition: .3s all background-image;
             background-image: linear-gradient(to right ,rgb(250, 82, 82) , rgb(221, 36, 118));
         }
+        img {
+            max-width: 16px;
+            width: 16px;
+        }
     }
 }

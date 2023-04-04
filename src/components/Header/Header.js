@@ -35,7 +35,7 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link primaryFont" to="#">
+                                    <Link className="nav-link primaryFont" to="/Resume">
 
                                         <span className='linkIcon'>
                                         <img src={resumeIcon} className="img-fluid mw-100" alt='linkIcon' />

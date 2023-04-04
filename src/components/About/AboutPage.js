@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import infoPhone from '../../assets/images/infoPhone.svg'
+import infoLocation from '../../assets/images/infoLocation.svg'
+import infoMail from '../../assets/images/infoMail.svg'
+import infoBirthDate from '../../assets/images/infoBirthDate.svg'
 import aboutCardOne from '../../assets/images/aboutCardOne.svg'
 import Slider from '../Slider/Slider'
 import './AboutPage.scss'
@@ -51,14 +54,14 @@ const AboutPage = () => {
                                         <div className='col-6'>
                                             <div className='infoMainComponent primaryFont'>
                                                 <div className='infoMainComponentImg flexCenter'>
-                                                    <img src={infoPhone} alt='' className='img-fluid mw-100' />
+                                                    <img src={infoLocation} alt='' className='img-fluid mw-100' />
                                                 </div>
                                                 <div className='infoMainComponentContent'>
                                                     <div className='infoTag'>
                                                         Location
                                                     </div>
                                                     <div className='infoDetails'>
-                                                        <Link to=''>+123 456 7890</Link>
+                                                        <Link to=''>Lahore, Pakistan</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -67,14 +70,14 @@ const AboutPage = () => {
                                         <div className='col-6'>
                                             <div className='infoMainComponent primaryFont'>
                                                 <div className='infoMainComponentImg flexCenter'>
-                                                    <img src={infoPhone} alt='' className='img-fluid mw-100' />
+                                                    <img src={infoMail} alt='' className='img-fluid mw-100' />
                                                 </div>
                                                 <div className='infoMainComponentContent'>
                                                     <div className='infoTag'>
                                                         Email
                                                     </div>
                                                     <div className='infoDetails'>
-                                                        <Link to=''>+123 456 7890</Link>
+                                                        <Link to=''>Admin@mail.com</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -83,7 +86,7 @@ const AboutPage = () => {
                                         <div className='col-6'>
                                             <div className='infoMainComponent primaryFont'>
                                                 <div className='infoMainComponentImg flexCenter'>
-                                                    <img src={infoPhone} alt='' className='img-fluid mw-100' />
+                                                    <img src={infoBirthDate} alt='' className='img-fluid mw-100' />
                                                 </div>
                                                 <div className='infoMainComponentContent'>
                                                     <div className='infoTag'>
