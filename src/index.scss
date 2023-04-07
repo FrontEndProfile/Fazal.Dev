@@ -108,3 +108,21 @@ $container-max-widths: (
     }
   }
 }
+
+
+
+.columnMainHead {
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 500;
+  color: $black_color;
+  img {
+    max-width: 28px;
+    width: 28px;
+  }
+  display: flex;
+  align-items: center;
+}
+.resumeHead {
+  margin-bottom: 40px;
+}

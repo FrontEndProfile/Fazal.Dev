@@ -6,13 +6,16 @@ import aboutIcon  from '../../assets/images/about.svg'
 import resumeIcon  from '../../assets/images/resume.svg'
 import worksIcon  from '../../assets/images/works.svg'
 import contactIcon  from '../../assets/images/contact.svg'
+import logo  from '../../assets/images/UIDEV.png'
 const Header = () => {
     return (
         <>
             <header>
                 <nav className="navbar navbar-expand-lg py-0">
                     <div className="container-fluid g-0">
-                        <Link className="navbar-brand m-0 p-0" href="#">Logo</Link>
+                        <Link className="navbar-brand m-0 p-0" href="#">
+                            <img className='img-fluid' src={logo} alt='' />
+                        </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

@@ -16,20 +16,20 @@ const Intro = () => {
                     <div className='row'>
                         <div className='col'>
                             <div className='introPageFrame'>
-                                <img src='https://via.placeholder.com/280x280/ffffff/000000?text=Profile' alt='' />
-                                {/* <img src={Fazalulrehman} alt={Fazalulrehman} /> */}
+                                {/* <img src='https://via.placeholder.com/280x280/ffffff/000000?text=Profile' alt='' /> */}
+                                <img src={Fazalulrehman} alt={Fazalulrehman} />
                                 
                             </div>
                             <h2 className='introHead primaryFont'>Fazal Ul Rehman</h2>
                             <p className='introSubHead primaryFont'>Front-End Developer</p>
                             <ul className='d-flex align-items-center justify-content-center list-unstyled socialMain'>
                                 <li className='ms-0'>
-                                    <Link to='' target='_blank'>
+                                    <Link to='mailto:fazalfazail732@gmail.com?subject=Offer UI-Developer' target='_blank'>
                                         <img className='img-fluid' src={gmailIcon} alt='icon' />
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to='' target='_blank'>
+                                    <Link to='https://github.com/FrontEndProfile/' target='_blank'>
                                         <img src={githubIcon} alt='icon' />
                                     </Link>
                                 </li>
