@@ -21,7 +21,7 @@ const Intro = () => {
                                 
                             </div>
                             <h2 className='introHead primaryFont'>Fazal Ul Rehman</h2>
-                            <p className='introSubHead primaryFont'>Front-End Developer</p>
+                            <p className='introSubHead primaryFont'>UI Developer</p>
                             <ul className='d-flex align-items-center justify-content-center list-unstyled socialMain'>
                                 <li className='ms-0'>
                                     <Link to='mailto:fazalfazail732@gmail.com?subject=Offer UI-Developer' target='_blank'>

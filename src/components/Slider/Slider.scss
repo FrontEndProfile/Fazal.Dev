@@ -22,4 +22,17 @@
             width: 100%;
         }
     }
+    .item.current {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 6px;
+            right: 32px;
+            width: 23px;
+            height: 23px;
+            border-radius: 50%;
+            background: rgb(20, 209, 20);
+        }
+    }
 }

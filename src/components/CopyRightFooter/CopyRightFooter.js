@@ -4,7 +4,7 @@ import './CopyRightFooter.scss'
 const CopyRightFooter = () => {
   return (
     <>
-     <p className='footerCopyRight primaryFont text-center mb-0'>© 2023 All Rights Reserved by ib-themes.</p>
+     <p className='footerCopyRight primaryFont text-center mb-0'>© 2023 Right By FrontEndProfile.com</p>
     </>
   )
 }
