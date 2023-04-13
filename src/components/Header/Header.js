@@ -1,13 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.scss'
-import homeIcon  from '../../assets/images/home.svg'
-import aboutIcon  from '../../assets/images/about.svg'
-import resumeIcon  from '../../assets/images/resume.svg'
-import worksIcon  from '../../assets/images/works.svg'
-import contactIcon  from '../../assets/images/contact.svg'
-import logo  from '../../assets/images/UIDEV.png'
+import homeIcon from '../../assets/images/home.svg'
+import aboutIcon from '../../assets/images/about.svg'
+import resumeIcon from '../../assets/images/resume.svg'
+import worksIcon from '../../assets/images/works.svg'
+import contactIcon from '../../assets/images/contact.svg'
+import logo from '../../assets/images/UIDEV.png'
+
+
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
+
+
 const Header = () => {
+    const [isDarkMode, setDarkMode] = React.useState(false);
+    const toggleDarkMode = (checked) => {
+        setDarkMode(checked);
+    };
+
+    // function toggleTheme(){
+    //     classList.add('active') 
+        
+
+    // }
     return (
         <>
             <header>
@@ -41,26 +56,32 @@ const Header = () => {
                                     <Link className="nav-link primaryFont" to="/Resume">
 
                                         <span className='linkIcon'>
-                                        <img src={resumeIcon} className="img-fluid mw-100" alt='linkIcon' />
+                                            <img src={resumeIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
                                         Resume</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link primaryFont" to="#">
                                         <span className='linkIcon'>
-                                        <img src={worksIcon} className="img-fluid mw-100" alt='linkIcon' /> 
+                                            <img src={worksIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
                                         Works</Link>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item" id='theme-toggle'>
                                     <Link className="nav-link primaryFont" to="#">
                                         <span className='linkIcon'>
-                                        <img src={contactIcon} className="img-fluid mw-100" alt='linkIcon' /> 
+                                            <img src={contactIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
                                         Contact</Link>
                                 </li>
-                                <li className="nav-item d-none">
-                                    <Link className="nav-link primaryFont" to="#">dark theme</Link>
+                                <li className="nav-item theme" id='themeBtn'>
+                                    <div className="nav-link primaryFont">dark theme</div>
+                                    <DarkModeSwitch
+                                        style={{ marginBottom: '2rem' }}
+                                        checked={isDarkMode}
+                                        onChange={toggleDarkMode}
+                                        size={120}
+                                    />
                                 </li>
 
                             </ul>
@@ -69,6 +90,7 @@ const Header = () => {
                     </div>
                 </nav>
             </header>
+
 
         </>
     )
