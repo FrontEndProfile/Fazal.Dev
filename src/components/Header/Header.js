@@ -8,21 +8,18 @@ import worksIcon from '../../assets/images/works.svg'
 import contactIcon from '../../assets/images/contact.svg'
 import logo from '../../assets/images/UIDEV.png'
 
+import { Fade as Hamburger } from 'hamburger-react'
+
 
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 
 const Header = () => {
-    const [isDarkMode, setDarkMode] = React.useState(false);
+    const [isDarkMode, setDarkMode] = React.useState(true);
     const toggleDarkMode = (checked) => {
         setDarkMode(checked);
     };
 
-    // function toggleTheme(){
-    //     classList.add('active') 
-        
-
-    // }
     return (
         <>
             <header>
@@ -31,8 +28,8 @@ const Header = () => {
                         <Link className="navbar-brand m-0 p-0" href="#">
                             <img className='img-fluid' src={logo} alt='' />
                         </Link>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
+                        <button className="navbar-toggler shadow-none border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <Hamburger size={20} direction="left" color="#ffffff" label="Show menu" />
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -47,7 +44,7 @@ const Header = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link primaryFont" to="/About">
                                         <span className='linkIcon'>
-                                            <img src={aboutIcon} className="img-fluid mw-100" alt='linkIcon'/>
+                                            <img src={aboutIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
                                         About
                                     </Link>
@@ -75,13 +72,15 @@ const Header = () => {
                                         Contact</Link>
                                 </li>
                                 <li className="nav-item theme" id='themeBtn'>
-                                    <div className="nav-link primaryFont">dark theme</div>
-                                    <DarkModeSwitch
-                                        style={{ marginBottom: '2rem' }}
-                                        checked={isDarkMode}
-                                        onChange={toggleDarkMode}
-                                        size={120}
-                                    />
+                                    <div className="nav-link primaryFont">
+                                        <DarkModeSwitch
+                                            checked={isDarkMode}
+                                            onChange={toggleDarkMode}
+                                            size={22}
+                                            moonColor='black'
+                                        />
+                                    </div>
+
                                 </li>
 
                             </ul>

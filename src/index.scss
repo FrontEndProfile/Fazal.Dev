@@ -126,3 +126,11 @@ $container-max-widths: (
 .resumeHead {
   margin-bottom: 40px;
 }
+
+
+
+@media (max-width:991px) {
+  .wrapper {
+    padding-inline: 1rem;
+  }
+}
