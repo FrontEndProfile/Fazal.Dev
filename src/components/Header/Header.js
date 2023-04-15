@@ -28,9 +28,20 @@ const Header = () => {
                         <Link className="navbar-brand m-0 p-0" href="#">
                             <img className='img-fluid' src={logo} alt='' />
                         </Link>
+                        <div className="mobTheme">
+                            <div className="nav-link primaryFont">
+                                <DarkModeSwitch
+                                    checked={isDarkMode}
+                                    onChange={toggleDarkMode}
+                                    size={22}
+                                    moonColor='black'
+                                />
+                        </div>
+                        </div>
                         <button className="navbar-toggler shadow-none border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <Hamburger size={20} direction="left" color="#ffffff" label="Show menu" />
                         </button>
+                        
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
@@ -64,7 +75,7 @@ const Header = () => {
                                         </span>
                                         Works</Link>
                                 </li>
-                                <li className="nav-item" id='theme-toggle'>
+                                <li className="nav-item lastChild" id='theme-toggle'>
                                     <Link className="nav-link primaryFont" to="#">
                                         <span className='linkIcon'>
                                             <img src={contactIcon} className="img-fluid mw-100" alt='linkIcon' />

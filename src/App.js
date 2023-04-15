@@ -1,4 +1,4 @@
-import Routing from './routes/Navigates';
+// import Routing from './routes/Navigates';
 import './App.scss';
 import './components/Wrapper/Wrapper.scss';
 import Navigates from './routes/Navigates';

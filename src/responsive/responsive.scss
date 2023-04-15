@@ -1,0 +1,37 @@
+@media (max-width:991px) {
+    header {
+      background: #f3f6f6;
+      padding-block: 1.25rem;
+      .navbar-nav .theme {
+        display: none;
+      }
+      .mobTheme {
+        display: flex;
+      }
+      .navbar-nav .nav-item .nav-link {
+        padding-inline: 0.5rem;
+      }
+      .nav-item.lastChild .nav-link  {
+        margin-bottom: 0;
+      }
+      #navbarSupportedContent {
+        position: absolute;
+        width: 100%;
+        top: 140%;
+        background: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        overflow: hidden;
+        left: 0;
+        filter: drop-shadow(rgba(0, 0, 0, 0.04) 0px 10px 8px) drop-shadow(rgba(0, 0, 0, 0.1) 0px 4px 3px);
+        padding-block: 1rem;
+      }
+    }
+    .mainSection,
+    .navbar.navbar-expand-lg>.container-fluid.g-0 {
+      padding-inline: 1rem;
+    }
+
+
+
+  }
