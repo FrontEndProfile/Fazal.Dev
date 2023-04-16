@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Header.scss'
 import homeIcon from '../../assets/images/home.svg'
 import aboutIcon from '../../assets/images/about.svg'
@@ -36,51 +36,51 @@ const Header = () => {
                                     size={22}
                                     moonColor='black'
                                 />
-                        </div>
+                            </div>
                         </div>
                         <button className="navbar-toggler shadow-none border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <Hamburger size={20} direction="left" color="#ffffff" label="Show menu" />
                         </button>
-                        
+
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link className="nav-link primaryFont" to="/">
+                                    <NavLink className="nav-link primaryFont" to="/">
                                         <span className='linkIcon'>
                                             <img src={homeIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
                                         Home
-                                    </Link>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link primaryFont" to="/About">
+                                    <NavLink className="nav-link primaryFont" to="/About">
                                         <span className='linkIcon'>
                                             <img src={aboutIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
                                         About
-                                    </Link>
+                                    </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link primaryFont" to="/Resume">
+                                    <NavLink className="nav-link primaryFont" to="/Resume">
 
                                         <span className='linkIcon'>
                                             <img src={resumeIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
-                                        Resume</Link>
+                                        Resume</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link primaryFont" to="#">
+                                    <NavLink className="nav-link primaryFont" to="/Works">
                                         <span className='linkIcon'>
                                             <img src={worksIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
-                                        Works</Link>
+                                        Works</NavLink>
                                 </li>
                                 <li className="nav-item lastChild" id='theme-toggle'>
-                                    <Link className="nav-link primaryFont" to="#">
+                                    <NavLink className="nav-link primaryFont" to="/Contact">
                                         <span className='linkIcon'>
                                             <img src={contactIcon} className="img-fluid mw-100" alt='linkIcon' />
                                         </span>
-                                        Contact</Link>
+                                        Contact</NavLink>
                                 </li>
                                 <li className="nav-item theme" id='themeBtn'>
                                     <div className="nav-link primaryFont">
