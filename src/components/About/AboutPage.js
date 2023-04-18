@@ -5,6 +5,7 @@ import infoLocation from '../../assets/images/infoLocation.svg'
 import infoMail from '../../assets/images/infoMail.svg'
 import infoBirthDate from '../../assets/images/infoBirthDate.svg'
 import aboutCardOne from '../../assets/images/aboutCardOne.svg'
+import uicode from '../../assets/images/ui-design.png'
 import Slider from '../Slider/Slider'
 import './AboutPage.scss'
 const AboutPage = () => {
@@ -108,108 +109,131 @@ const AboutPage = () => {
                     </div>
                     <div className='row whatIDo'>
                         <h2 className='whatIDoHead'>What I do!</h2>
-                        <div className='infoMain'>
+                        <div className='infoMain p-0'>
                             <div className='container-fluid g-0'>
                                 <div className='row infoMainGap g-0'>
 
-                                    <div className='col-xl col-md-6'>
-                                        <div className='infoMainComponent xyz'>
-                                            <div className='whatIDoImage'>
-                                                <img src={aboutCardOne} alt='' className='img-fluid mw-100' />
-                                            </div>
+                                    <div className='col-xl-4 col-md-6'>
+                                        <div className='infoMainComponent'>
                                             <div className='infoMainComponentContent'>
-                                                <div className='infoTag'>
-                                                    Ui/Ux Design
+                                                <div className='infoMainComponentHead'>
+                                                    <div className='whatIDoImage'>
+                                                    <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                    </div>
+                                                    <div className='infoTag'>
+                                                    UI CODE
+                                                    </div>
                                                 </div>
                                                 <div className='infoDetails'>
-                                                    <p className='infoDetailsText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                                    <p className='infoDetailsText'>
+                                                    Proficient in developing responsive and accessible user interfaces using HTML, CSS, and JavaScript. Experienced in front-end frameworks like React, Vue, and Angular. Skilled in optimizing website performance and cross-browser compatibility.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className='col-xl col-md-6'>
-                                        <div className='infoMainComponent xyz'>
-                                            <div className='whatIDoImage'>
-                                                <img src={aboutCardOne} alt='' className='img-fluid mw-100' />
-                                            </div>
+                                    <div className='col-xl-4 col-md-6'>
+                                        <div className='infoMainComponent'>
                                             <div className='infoMainComponentContent'>
-                                                <div className='infoTag'>
-                                                    Ui/Ux Design
+                                                <div className='infoMainComponentHead'>
+                                                    <div className='whatIDoImage'>
+                                                    <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                    </div>
+                                                    <div className='infoTag'>
+                                                    Angular UI
+                                                    </div>
                                                 </div>
                                                 <div className='infoDetails'>
-                                                    <p className='infoDetailsText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                                    <p className='infoDetailsText'>
+                                                    Angular expert with skills in building scalable and performant user interfaces using Angular and its ecosystem, including RxJS, Angular Material, and NgRx. Proficient in responsive design, accessibility, and debugging complex issues.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className='col-xl col-md-6'>
-                                        <div className='infoMainComponent xyz'>
-                                            <div className='whatIDoImage'>
-                                                <img src={aboutCardOne} alt='' className='img-fluid mw-100' />
-                                            </div>
+                                    <div className='col-xl-4 col-md-6'>
+                                        <div className='infoMainComponent'>
                                             <div className='infoMainComponentContent'>
-                                                <div className='infoTag'>
-                                                    Ui/Ux Design
+                                                <div className='infoMainComponentHead'>
+                                                    <div className='whatIDoImage'>
+                                                    <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                    </div>
+                                                    <div className='infoTag'>
+                                                    React UI
+                                                    </div>
                                                 </div>
                                                 <div className='infoDetails'>
-                                                    <p className='infoDetailsText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                                    <p className='infoDetailsText'>
+                                                    Proficient in developing dynamic user interfaces using React & its eco-system, including Router, & Styled Components. Skilled in responsive design, accessibility, and cross-browser compatibility. Experienced debugging complex issues.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                </div>
-                                <div className='row infoMainGap g-0'>
-
-                                    <div className='col-xl col-md-6'>
-                                        <div className='infoMainComponent xyz'>
-                                            <div className='whatIDoImage'>
-                                                <img src={aboutCardOne} alt='' className='img-fluid mw-100' />
-                                            </div>
+                                    <div className='col-xl-4 col-md-6'>
+                                        <div className='infoMainComponent'>
                                             <div className='infoMainComponentContent'>
-                                                <div className='infoTag'>
-                                                    Ui/Ux Design
+                                                <div className='infoMainComponentHead'>
+                                                    <div className='whatIDoImage'>
+                                                    <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                    </div>
+                                                    <div className='infoTag'>
+                                                    WebFlow Dev
+                                                    </div>
                                                 </div>
                                                 <div className='infoDetails'>
-                                                    <p className='infoDetailsText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                                    <p className='infoDetailsText'>
+                                                    Experienced in using Webflow to design and develop responsive websites with a focus on user experience. Proficient in creating custom animations, interactions, and CMS integration. Skilled in optimizing website speed and SEO.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className='col-xl col-md-6'>
-                                        <div className='infoMainComponent xyz'>
-                                            <div className='whatIDoImage'>
-                                                <img src={aboutCardOne} alt='' className='img-fluid mw-100' />
-                                            </div>
-                                            <div className='infoMainComponentContent'>
-                                                <div className='infoTag'>
-                                                    Ui/Ux Design
+                                    <div className='col-xl-4 col-md-6'>
+                                            <div className='infoMainComponent'>
+                                                <div className='infoMainComponentContent'>
+                                                    <div className='infoMainComponentHead'>
+                                                        <div className='whatIDoImage'>
+                                                        <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                        </div>
+                                                        <div className='infoTag'>
+                                                        JavaScript
+                                                        </div>
+                                                    </div>
+                                                    <div className='infoDetails'>
+                                                        <p className='infoDetailsText'>
+                                                        Skilled in using JavaScript & jQuery to develop interactive and engaging user interfaces. Proficient in DOM manipulation, event handling, and animations. Experienced in optimizing website performance and cross-browser compatibility.
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                                <div className='infoDetails'>
-                                                    <p className='infoDetailsText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                                                </div>
                                             </div>
-                                        </div>
                                     </div>
 
-                                    <div className='col-xl col-md-6'>
-                                        <div className='infoMainComponent xyz'>
-                                            <div className='whatIDoImage'>
-                                                <img src={aboutCardOne} alt='' className='img-fluid mw-100' />
-                                            </div>
-                                            <div className='infoMainComponentContent'>
-                                                <div className='infoTag'>
-                                                    Ui/Ux Design
+                                    <div className='col-xl-4 col-md-6'>
+                                            <div className='infoMainComponent'>
+                                                <div className='infoMainComponentContent'>
+                                                    <div className='infoMainComponentHead'>
+                                                        <div className='whatIDoImage'>
+                                                        <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                        </div>
+                                                        <div className='infoTag'>
+                                                        Git
+                                                        </div>
+                                                    </div>
+                                                    <div className='infoDetails'>
+                                                        <p className='infoDetailsText'>
+                                                        Experience in GitHub/Bitbucket for version control, collaboration, and deployment. Skilled in repository management, branching strategies, and pull requests. Proficient in resolving merge conflicts and ensuring code quality.
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                                <div className='infoDetails'>
-                                                    <p className='infoDetailsText'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.</p>
-                                                </div>
                                             </div>
-                                        </div>
                                     </div>
+
+                                    
 
                                 </div>
                             </div>

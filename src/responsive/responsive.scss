@@ -27,9 +27,18 @@
         padding-block: 1rem;
       }
     }
+    .mainPage {
+      border-radius: 0px;
+    }
     .mainSection,
     .navbar.navbar-expand-lg>.container-fluid.g-0 {
       padding-inline: 1rem;
+    }
+    .WhoAm {
+      grid-gap: 15px;
+    }
+    .whatIDo .infoMain .infoMainGap {
+       grid-gap: 0;
     }
 
 
