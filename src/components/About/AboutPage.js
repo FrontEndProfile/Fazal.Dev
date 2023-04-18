@@ -6,6 +6,11 @@ import infoMail from '../../assets/images/infoMail.svg'
 import infoBirthDate from '../../assets/images/infoBirthDate.svg'
 import aboutCardOne from '../../assets/images/aboutCardOne.svg'
 import uicode from '../../assets/images/ui-design.png'
+import reactIcon from '../../assets/images/react-icon.png'
+import NGIcon from '../../assets/images/angualrIcon.png'
+import Webflow from '../../assets/images/webflow-icon.svg'
+import JsIcon from '../../assets/images/jsIcon.png'
+import GitIcon from '../../assets/images/giticon.png'
 import Slider from '../Slider/Slider'
 import './AboutPage.scss'
 const AboutPage = () => {
@@ -138,7 +143,7 @@ const AboutPage = () => {
                                             <div className='infoMainComponentContent'>
                                                 <div className='infoMainComponentHead'>
                                                     <div className='whatIDoImage'>
-                                                    <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                    <img src={NGIcon} alt='' className='img-fluid mw-100' />
                                                     </div>
                                                     <div className='infoTag'>
                                                     Angular UI
@@ -158,7 +163,7 @@ const AboutPage = () => {
                                             <div className='infoMainComponentContent'>
                                                 <div className='infoMainComponentHead'>
                                                     <div className='whatIDoImage'>
-                                                    <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                    <img src={reactIcon} alt='' className='img-fluid mw-100' />
                                                     </div>
                                                     <div className='infoTag'>
                                                     React UI
@@ -178,7 +183,7 @@ const AboutPage = () => {
                                             <div className='infoMainComponentContent'>
                                                 <div className='infoMainComponentHead'>
                                                     <div className='whatIDoImage'>
-                                                    <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                    <img src={Webflow} alt='' className='img-fluid mw-100' />
                                                     </div>
                                                     <div className='infoTag'>
                                                     WebFlow Dev
@@ -198,7 +203,7 @@ const AboutPage = () => {
                                                 <div className='infoMainComponentContent'>
                                                     <div className='infoMainComponentHead'>
                                                         <div className='whatIDoImage'>
-                                                        <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                        <img src={JsIcon} alt='' className='img-fluid mw-100' />
                                                         </div>
                                                         <div className='infoTag'>
                                                         JavaScript
@@ -218,7 +223,7 @@ const AboutPage = () => {
                                                 <div className='infoMainComponentContent'>
                                                     <div className='infoMainComponentHead'>
                                                         <div className='whatIDoImage'>
-                                                        <img src={uicode} alt='' className='img-fluid mw-100' />
+                                                        <img src={GitIcon} alt='' className='img-fluid mw-100' />
                                                         </div>
                                                         <div className='infoTag'>
                                                         Git
