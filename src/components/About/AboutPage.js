@@ -4,7 +4,7 @@ import infoPhone from '../../assets/images/infoPhone.svg'
 import infoLocation from '../../assets/images/infoLocation.svg'
 import infoMail from '../../assets/images/infoMail.svg'
 import infoBirthDate from '../../assets/images/infoBirthDate.svg'
-import aboutCardOne from '../../assets/images/aboutCardOne.svg'
+// import aboutCardOne from '../../assets/images/aboutCardOne.svg'
 import uicode from '../../assets/images/ui-design.png'
 import reactIcon from '../../assets/images/react-icon.png'
 import NGIcon from '../../assets/images/angualrIcon.png'
@@ -41,7 +41,7 @@ const AboutPage = () => {
                                 <h4 className='infoMainHead'>Personal Info</h4>
                                 <div className='container-fluid g-0'>
                                     <div className='row infoMainGap'>
-                                        <div className='col-6'>
+                                        <div className='col-sm-6'>
                                             <div className='infoMainComponent primaryFont'>
                                                 <div className='infoMainComponentImg flexCenter'>
                                                     <img src={infoPhone} alt='' className='img-fluid mw-100' />
@@ -57,7 +57,7 @@ const AboutPage = () => {
                                             </div>
                                         </div>
 
-                                        <div className='col-6'>
+                                        <div className='col-sm-6'>
                                             <div className='infoMainComponent primaryFont'>
                                                 <div className='infoMainComponentImg flexCenter'>
                                                     <img src={infoLocation} alt='' className='img-fluid mw-100' />
@@ -71,9 +71,10 @@ const AboutPage = () => {
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
 
-                                        <div className='col-6'>
+                                        <div className='col-sm-6'>
                                             <div className='infoMainComponent primaryFont'>
                                                 <div className='infoMainComponentImg flexCenter'>
                                                     <img src={infoMail} alt='' className='img-fluid mw-100' />
@@ -89,7 +90,7 @@ const AboutPage = () => {
                                             </div>
                                         </div>
 
-                                        <div className='col-6'>
+                                        <div className='col-sm-6'>
                                             <div className='infoMainComponent primaryFont'>
                                                 <div className='infoMainComponentImg flexCenter'>
                                                     <img src={infoBirthDate} alt='' className='img-fluid mw-100' />
@@ -104,8 +105,6 @@ const AboutPage = () => {
                                                 </div>
                                             </div>
                                         </div>
-
-
                                     </div>
                                 </div>
                             </div>

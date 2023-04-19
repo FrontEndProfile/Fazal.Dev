@@ -37,6 +37,28 @@ const Slider = () => {
             }}
             modules={[Autoplay]}
             loop={false}
+            breakpoints={{
+              992: {
+                slidesPerView: 5,
+              },
+              768: {
+                slidesPerView: 4,
+              },
+              575: {
+                slidesPerView: 3,
+                  delay: 1000,
+              },
+              440: {
+                slidesPerView: 2,
+                delay: 1000,
+
+              },
+              300: {
+                slidesPerView: 2,
+                delay: 1000,
+
+              },
+            }}
             >
             <SwiperSlide className='item current'>
               <img className='img-fluid' src={company1} alt='company1' />

@@ -27,8 +27,19 @@
         &::after {
             content: "";
             position: absolute;
-            top: 6px;
-            right: 32px;
+            top: 2%;
+            right: 6%;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgb(20, 209, 20);
+            animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 5.5%;
+            right: 11.5%;
             width: 23px;
             height: 23px;
             border-radius: 50%;
@@ -36,3 +47,13 @@
         }
     }
 }
+
+
+@keyframes pulse-ring {
+    0% {
+      transform: scale(.33);
+    }
+    80%, 100% {
+      opacity: 0;
+    }
+  }

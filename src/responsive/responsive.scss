@@ -1,46 +1,102 @@
-@media (max-width:991px) {
-    header {
-      background: #f3f6f6;
-      padding-block: 1.25rem;
-      .navbar-nav .theme {
-        display: none;
-      }
-      .mobTheme {
-        display: flex;
-      }
-      .navbar-nav .nav-item .nav-link {
-        padding-inline: 0.5rem;
-      }
-      .nav-item.lastChild .nav-link  {
-        margin-bottom: 0;
-      }
-      #navbarSupportedContent {
-        position: absolute;
-        width: 100%;
-        top: 140%;
-        background: white;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        overflow: hidden;
-        left: 0;
-        filter: drop-shadow(rgba(0, 0, 0, 0.04) 0px 10px 8px) drop-shadow(rgba(0, 0, 0, 0.1) 0px 4px 3px);
-        padding-block: 1rem;
-      }
-    }
-    .mainPage {
-      border-radius: 0px;
-    }
-    .mainSection,
-    .navbar.navbar-expand-lg>.container-fluid.g-0 {
-      padding-inline: 1rem;
-    }
-    .WhoAm {
-      grid-gap: 15px;
-    }
-    .whatIDo .infoMain .infoMainGap {
-       grid-gap: 0;
-    }
-
-
-
+@media (max-width:1399.98px) {
+  .whatIDo .infoMain .infoMainGap .infoMainComponent {
+    max-width: 312px;
+    height: 100%;
   }
+}
+
+@media (max-width:1199.98px) {
+  .whatIDo .infoMain .infoMainGap .infoMainComponent {
+    max-width: calc(100% - 4%);
+    height: 100%;
+    margin-inline: auto;
+    // margin-bottom: s;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header {
+    background: #f3f6f6;
+    padding-block: 1.25rem;
+
+    .navbar-nav .theme {
+      display: none;
+    }
+
+    .mobTheme {
+      display: flex;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      padding-inline: 0.5rem;
+    }
+
+    .nav-item.lastChild .nav-link {
+      margin-bottom: 0;
+    }
+
+    #navbarSupportedContent {
+      position: absolute;
+      width: 100%;
+      top: 140%;
+      background: white;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      overflow: hidden;
+      left: 0;
+      filter: drop-shadow(rgba(0, 0, 0, 0.04) 0px 10px 8px) drop-shadow(rgba(0, 0, 0, 0.1) 0px 4px 3px);
+      padding-block: 1rem;
+    }
+  }
+
+  .mainPage {
+    border-radius: 0px;
+  }
+
+  .mainSection,
+  .navbar.navbar-expand-lg>.container-fluid.g-0 {
+    padding-inline: 1rem;
+  }
+
+  .mainPage {
+    padding-inline: 2.5rem;
+  }
+
+  .WhoAm {
+    grid-gap: 15px;
+  }
+
+  .infoMain .infoMainGap {
+    grid-row-gap: 14px;
+  }
+
+
+
+
+}
+
+@media (max-width: 767.98px) {
+  .WhoAmImage {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .infoMain .infoMainGap {
+    grid-row-gap: 1rem;
+  }
+
+  .mainPage {
+    padding-inline: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .WhoAm {
+    padding-inline: 0px;
+  }
+  .headingLine {
+    &::after {
+      content: none;
+    }
+  }
+} 
