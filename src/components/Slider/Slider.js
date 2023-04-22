@@ -51,7 +51,6 @@ const Slider = () => {
               440: {
                 slidesPerView: 2,
                 delay: 1000,
-
               },
               300: {
                 slidesPerView: 2,
