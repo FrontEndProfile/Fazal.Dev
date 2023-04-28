@@ -4,3 +4,53 @@
     margin-bottom: 24px;
     font-weight: 500;
 }
+.visualMainBar {
+    margin-bottom: 28px;
+    .visualBarName {
+        font-size: 16px;
+        line-height: 24px;
+        color: #44566c;
+        font-weight: 600;
+    }
+    .visualBarPer {
+        @extend .visualBarName;
+    }
+    :has(.visualBarName){
+        padding-block: 4px;
+    }
+}
+.visualBarSkill {
+    height: 5.5px;
+    width: 100%;
+    background: #d9d9d9;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.visualPercentage {
+    height: 100%;
+}
+
+.visualPercentage:nth-child(1) {
+    background: #ff6464;
+}
+.visualPercentage:nth-child(2) {
+    background: #ff6464;
+}
+
+
+.visualMainTags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    .visualTag {
+        padding: 8px 20px;
+        background: #edf2f2;
+        border-radius: 8px;
+    }
+}
+
+.visualMain .row:has(.col) {
+    column-gap: 32px;
+}

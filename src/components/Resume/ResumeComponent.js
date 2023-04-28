@@ -48,7 +48,7 @@ const ResumeComponent = () => {
                             <div className='columnMain'>
                                 <div className='columnMainHead'>
                                     <span><img src={resumeEducation} alt='' /></span>
-                                    <span>Education</span>
+                                    <span>Experience</span>
                                 </div>
 
                                 {/* CARD'S  */}
@@ -77,7 +77,7 @@ const ResumeComponent = () => {
                             <div className='columnMain'>
                                 <div className='columnMainHead'>
                                     <span><img src={resumeEducation} alt='' /></span>
-                                    <span>Education</span>
+                                    <span>Awards</span>
                                 </div>
 
                                 {/* CARD'S  */}
