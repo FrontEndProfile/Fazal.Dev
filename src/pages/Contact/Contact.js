@@ -1,18 +1,21 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
+
+import ContactPage from '../../components/Contact/ContactPage'
+
 const Contact = () => {
   return (
     <>
-    <main className='wrapper'>
-      <div className='container g-0 h-100'>
-        <Header />
-        <section className='introPageHome'>
-            <h2>Contact</h2>
-        </section>
-      </div>
-    </main>
+      <main className='wrapper'>
+        <div className='container-lg g-0 h-100'>
+          <Header />
+          <section className='introPageHome'>
+            <ContactPage  />
+          </section>
+        </div>
+      </main>
 
-  </>
+    </>
   )
 }
 
