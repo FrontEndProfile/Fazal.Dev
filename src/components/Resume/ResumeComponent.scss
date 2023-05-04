@@ -16,6 +16,7 @@
         padding: 16px 12px 16px 20px;
         margin-bottom: 24px;
         border-radius: 8px;
+        min-height: 126px;
         .CardDate {
             font-size: 14px;
             line-height: 24px;
@@ -44,6 +45,32 @@
     .cardSection {
         padding-bottom: 48px;
     }
+    .ed .ResumeCard:nth-child(3){
+        background: #fff1fb;
+    }
+    .ed .ResumeCard:nth-child(4){
+        background:#fff4f4;
+    }
+
+    .ex .ResumeCard:nth-child(2){
+        background: #eef5fa;
+    }
+    .ex .ResumeCard:nth-child(3){
+        background:#f2f4ff;
+    }
+    .ex .ResumeCard:nth-child(4){
+        background:#eef5fa;
+    }
+
+    .aw .ResumeCard:nth-child(2){
+        background: #fcf4ff;
+    }
+    .aw .ResumeCard:nth-child(3){
+        background:#fcf9f2;
+    }
+    .aw .ResumeCard:nth-child(4){
+        background:#fcf4ff;
+    }
 
     // visualMain 
 
@@ -51,7 +78,6 @@
         padding: 48px 80px;
         background: #f8fbfb;
     }
-
 
 }
 .mainPage.ResumePage {
@@ -62,3 +88,5 @@
 .cardSection:has(.visualMain) {
     padding-bottom: 0 !important;
 }
+// .ed.columnMain > .ResumeCard:nth-child(1) {
+// }

@@ -20,24 +20,43 @@
     }
 }
 .visualBarSkill {
-    height: 5.5px;
+    height: 5.5px !important;
     width: 100%;
     background: #d9d9d9;
     border-radius: 6px;
     overflow: hidden;
+    padding: 0;
 }
 
 .visualPercentage {
     height: 100%;
+    width: 90%;
 }
 
-.visualPercentage:nth-child(1) {
-    background: #ff6464;
+.visualMain .visualMainBar:nth-child(2) .visualPercentage {
+    background: #ff6464 !important;
+    width: 90%;
 }
-.visualPercentage:nth-child(2) {
-    background: #ff6464;
+.visualMain .visualMainBar:nth-child(3) .visualPercentage {
+    background: #9272d4 !important;
+    width: 87%;
 }
-
+.visualMain .visualMainBar:nth-child(4) .visualPercentage {
+    background: #5185d4 !important;
+    width: 67%;
+}
+.visualMain .visualMainBar:nth-child(5) .visualPercentage {
+    background: #9272d4 !important;
+    width: 57%;
+}
+.visualMain .visualMainBar:nth-child(6) .visualPercentage {
+    background: #9272d4 !important;
+    width: 53%;
+}
+.visualMain .visualMainBar:nth-child(7) .visualPercentage {
+    background: #9272d4 !important;
+    width: 50%;
+}
 
 .visualMainTags {
     display: flex;

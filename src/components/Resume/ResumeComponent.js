@@ -16,7 +16,7 @@ const ResumeComponent = () => {
                     <div className='row cardSection'>
                         {/* COL  */}
                         <div className='col-lg-4 col-md-6 col-12'>
-                            <div className='columnMain'>
+                            <div className='columnMain ed'>
                                 <div className='columnMainHead'>
                                     <span><img src={resumeEducation} alt='' /></span>
                                     <span>Education</span>
@@ -24,28 +24,28 @@ const ResumeComponent = () => {
 
                                 {/* CARD'S  */}
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2022-current</span>
+                                    <h3 class="CardSkill">[React & Angular UI]</h3>
+                                    <p class="CardInfo">FreeCodeCamp V-School</p>
                                 </div>
 
                                 <div class="ResumeCard">
                                     <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <h3 class="CardSkill">Html & CSS</h3>
+                                    <p class="CardInfo">Scrimba V-School</p>
                                 </div>
 
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2019-2021</span>
+                                    <h3 class="CardSkill">10th in Science</h3>
+                                    <p class="CardInfo">The WestBridge School</p>
                                 </div>
                             </div>
                         </div>
 
                         {/* COL  */}
                         <div className='col-lg-4 col-md-6 col-12'>
-                            <div className='columnMain'>
+                            <div className='columnMain ex'>
                                 <div className='columnMainHead'>
                                     <span><img src={resumeEducation} alt='' /></span>
                                     <span>Experience</span>
@@ -53,28 +53,28 @@ const ResumeComponent = () => {
 
                                 {/* CARD'S  */}
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2022-Present</span>
+                                    <h3 class="CardSkill">UI DEV StoreFront</h3>
+                                    <p class="CardInfo">Techsembly</p>
                                 </div>
 
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2021-2022</span>
+                                    <h3 class="CardSkill">Front-End Coder</h3>
+                                    <p class="CardInfo">Vigosol</p>
                                 </div>
 
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2021-2022</span>
+                                    <h3 class="CardSkill">Front-End Dev MultiProjects</h3>
+                                    <p class="CardInfo">SudoExpert</p>
                                 </div>
                             </div>
                         </div>
 
                         {/* COL  */}
-                        <div className='col-lg-4 col-md-6 col-12'>
-                            <div className='columnMain'>
+                        <div className='col-lg-4 col-md-6 col-12'> 
+                            <div className='columnMain aw'>
                                 <div className='columnMainHead'>
                                     <span><img src={resumeEducation} alt='' /></span>
                                     <span>Awards</span>
@@ -82,21 +82,21 @@ const ResumeComponent = () => {
 
                                 {/* CARD'S  */}
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2021-Active</span>
+                                    <h3 class="CardSkill">Best Practices Code</h3>
+                                    <p class="CardInfo">Vigosol & Techsembly</p>
                                 </div>
 
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2021-Active</span>
+                                    <h3 class="CardSkill">Component-Based UI</h3>
+                                    <p class="CardInfo">Techsembly</p>
                                 </div>
 
                                 <div class="ResumeCard">
-                                    <span class="CardDate">2021-2023</span>
-                                    <h3 class="CardSkill"> Ph.D in Horriblensess</h3>
-                                    <p class="CardInfo">ABC University, Los Angeles, CA</p>
+                                    <span class="CardDate">2021-2022</span>
+                                    <h3 class="CardSkill">WebFlow Animations & UI</h3>
+                                    <p class="CardInfo">Vigosol & MicroCent</p>
                                 </div>
                             </div>
                         </div>
