@@ -31,7 +31,7 @@ const AboutPage = () => {
                         <div className='col-md-8 primaryFont'>
                             <h1 className='WhoAmHead'>Who am i?</h1>
                             <p className='WhoAmContent'>
-                                I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                            As a self-motivated Front-End Developer with 3 years of professional experience, I am skilled in constructing responsive and scalable websites using Web Technologies. My passion for learning and exploration drives me to continuously seek new tools and knowledge in different work environments.
                             </p>
                             <p className='WhoAmContent'>
                                 My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
