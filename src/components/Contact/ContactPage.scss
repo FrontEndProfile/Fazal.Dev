@@ -1,18 +1,118 @@
 .contact_page {
+    .headingLine {
+        margin-bottom: 40px;
+    }
+
     .contact_card {
+        max-width: 312px;
         padding: 30px;
         background: #fcf4ff;
         border-radius: 12px;
         margin-bottom: 24px;
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+
         ul {
             list-style: none;
             margin: 0;
             padding: 0;
+
             li {
                 a {
-
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #44566c;
+                    font-weight: 400;
                 }
             }
         }
+
+        .contact_img {
+            max-width: 30px;
+            width: 30px;
+            margin-top: 8px;
+        }
+
+        .contact_info {
+            h4 {
+                // font-family: $primary_font;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                color: black;
+                margin-bottom: 8px;
+            }
+        }
+        &:nth-child(2) {
+            background: #eefbff;
+        }
+        &:nth-child(3) {
+            background: #f2f4ff;
+        }
+    }
+
+    .chatForm {
+        padding: 48px;
+        background: #f8fbfb;
+        margin-bottom: 60px;
+        border-radius: 12px;
+        .chatForm_tittle {
+            margin-bottom: 40px;
+        }
+
+        form {
+            .form-floating {
+                input {
+                    border: none;
+                    box-shadow: none;
+                    border-radius: 0;
+                    border-bottom: 2px solid #b5b5b5;
+                    padding-block: 10px;
+                    padding-inline: 0 !important;
+                    background: transparent;
+                }
+                margin-bottom: 32px;
+            }
+            button.btn {
+                margin-top: 12px;
+            }
+            .form-floating > .form-control:focus {
+                transition: color border 0.3s all ease-in;
+                border-color: #ff6464;
+            }
+            .form-floating > .form-control:focus ~ label {
+                transition: color 0.3s all ease-in;
+                color: #ff6464;
+            }
+
+            .form-floating:nth-child(2) > .form-control:focus {
+                border-color: #5185d4;
+            }
+            .form-floating:nth-child(2) > .form-control:focus ~ label {
+                color: #5185d4;
+            }
+            .form-floating:nth-child(3) > .form-control:focus {
+                border-color: #ca56f2;
+            }
+            .form-floating:nth-child(3) > .form-control:focus ~ label {
+                color: #ca56f2;
+            }
+
+
+
+        }
+    }
+
+    .form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-control-plaintext ~ label, .form-floating > .form-select ~ label {
+        opacity: 1;
+        transform: scale(0.85) translateY(-2.2rem) translateX(0.15rem) !important;
+    }
+    .form-floating > label {
+        padding-inline: 0 !important;
+    }
+    .layout_cards {
+        gap: 80px;
     }
 }

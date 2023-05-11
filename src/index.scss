@@ -22,6 +22,8 @@ $primary_Color : #F95054;
   font-family: $secondary_font;
 }
 
+
+
 .w-90 {
   width: 80%;
 }
@@ -156,3 +158,26 @@ $container-max-widths: (
   width: 100%;
 }
 
+.chatForm_tittle {
+  columns: $black_color;
+  font-size: 25px;
+  font-weight: 400;
+  span {
+    font-weight: 600;
+  }
+}
+.chatForm_btn {
+  width: 110px;
+  height: 44px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  border: 2px solid rgb(166, 166, 166);
+  border-radius: 8px !important;
+  &:hover {
+    background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(221, 36, 118));
+    background-size: 100% 100%;
+    border-color: transparent;
+    color: white;
+  }
+}
