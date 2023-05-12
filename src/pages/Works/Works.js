@@ -7,7 +7,7 @@ const Works = () => {
       <div className='container g-0 h-100'>
         <Header />
         <section className='introPageHome'>
-            <h2>Works</h2>
+            <h2>Page On Working</h2>
         </section>
       </div>
     </main>
