@@ -34,7 +34,7 @@ const AboutPage = () => {
                             As a self-motivated Front-End Developer with 3 years of professional experience, I am skilled in constructing responsive and scalable websites using Web Technologies. My passion for learning and exploration drives me to continuously seek new tools and knowledge in different work environments.
                             </p>
                             <p className='WhoAmContent'>
-                                My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+                            At the age of 17 and embarked on a journey as a developer. Since then, my enthusiasm for the field has only deepened as I constantly strive to learn and enhance my skill set.
                             </p>
 
 
@@ -52,7 +52,7 @@ const AboutPage = () => {
                                                         Phone
                                                     </div>
                                                     <div className='infoDetails'>
-                                                        <Link to=''>+123 456 7890</Link>
+                                                        <Link to='tel:+923494486605'>+92 349-4486605</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -85,7 +85,7 @@ const AboutPage = () => {
                                                         Email
                                                     </div>
                                                     <div className='infoDetails'>
-                                                        <Link to=''>Admin@mail.com</Link>
+                                                        <Link to='mailto:fazalfazail732@gmail.com'>fazalfazail732@gmail.com</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -101,7 +101,7 @@ const AboutPage = () => {
                                                         Birthday
                                                     </div>
                                                     <div className='infoDetails'>
-                                                        May 27, 1990
+                                                        Jun 04, 2003
                                                     </div>
                                                 </div>
                                             </div>
