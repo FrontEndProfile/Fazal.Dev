@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af726db0.css",
+    "main.js": "/static/js/main.2d7e90b5.js",
+    "static/js/787.d81f32e4.chunk.js": "/static/js/787.d81f32e4.chunk.js",
+    "static/media/react-icon.png": "/static/media/react-icon.2afe8019efe53a8eff12.png",
+    "static/media/company6.png": "/static/media/company6.31b2e6d04d0cda2ce454.png",
+    "static/media/bg.jpg": "/static/media/bg.d5d541a728bd47929430.jpg",
+    "static/media/company4.png": "/static/media/company4.2de65836de157fc203d7.png",
+    "static/media/company3.png": "/static/media/company3.1555a9ee07366040a9df.png",
+    "static/media/company5.png": "/static/media/company5.4a70a2252d75e1f1614f.png",
+    "static/media/angualrIcon.png": "/static/media/angualrIcon.b6d2a9dec3e43e0ffb95.png",
+    "static/media/UIDEV.png": "/static/media/UIDEV.64ccce738ec663c3bf9c.png",
+    "static/media/company2.png": "/static/media/company2.6ec1ec2b9d61d218b856.png",
+    "static/media/giticon.png": "/static/media/giticon.95e92c065c8ce5f9147a.png",
+    "static/media/company1.png": "/static/media/company1.de4401d0cd745d3cf079.png",
+    "static/media/map.webp": "/static/media/map.63defbd99ea1c577c6fa.webp",
+    "static/media/email.webp": "/static/media/email.39b02917c586f04c51eb.webp",
+    "static/media/phone-call.webp": "/static/media/phone-call.0b149a62141129e9d9c0.webp",
+    "static/media/github.svg": "/static/media/github.ca3156b4372e9d26fc1d699002d06890.svg",
+    "static/media/resume.svg": "/static/media/resume.f804b896e8e55ac813d6861e95472c00.svg",
+    "static/media/infoBirthDate.svg": "/static/media/infoBirthDate.66969ef2834bbb5cf602193a686e13bf.svg",
+    "static/media/infoMail.svg": "/static/media/infoMail.45e5123e68c5d5d4fa18f0736ba1527f.svg",
+    "static/media/gmail.svg": "/static/media/gmail.cc6e11279d07fe796cfe269cb382d910.svg",
+    "index.html": "/index.html",
+    "static/media/about.svg": "/static/media/about.c044627098b506aeb063ea2b392d6f85.svg",
+    "static/media/works.svg": "/static/media/works.9d7f45aa1d7c4efc4d8c914994a23e43.svg",
+    "static/media/home.svg": "/static/media/home.ea154ce76ed4a02d6fce546b30824cd9.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.981390dfe508b8b187b90a2dee37fb94.svg",
+    "static/media/infoPhone.svg": "/static/media/infoPhone.7f0f9007aab462183b079f4631bdcb23.svg",
+    "static/media/webflow-icon.svg": "/static/media/webflow-icon.6180beebaf2661ef6b8014009dd33bcb.svg",
+    "static/media/resumeEducation.svg": "/static/media/resumeEducation.aeeced9ffc704185ca4215f714f07e46.svg",
+    "static/media/contact.svg": "/static/media/contact.7254fb7c6701c5e585620d983cdccd07.svg",
+    "static/media/infoLocation.svg": "/static/media/infoLocation.334f9af6cea0fcfa65f6ffbc35fa1a50.svg",
+    "main.af726db0.css.map": "/static/css/main.af726db0.css.map",
+    "main.2d7e90b5.js.map": "/static/js/main.2d7e90b5.js.map",
+    "787.d81f32e4.chunk.js.map": "/static/js/787.d81f32e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af726db0.css",
+    "static/js/main.2d7e90b5.js"
+  ]
+}
