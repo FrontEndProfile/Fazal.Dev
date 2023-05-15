@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 import phone from '../../assets/images/phone-call.webp'
 import email from '../../assets/images/email.webp'
 import map from '../../assets/images/map.webp'
+import CopyRightFooter from '../CopyRightFooter/CopyRightFooter'
 import './ContactPage.scss'
 
 const ContactPage = () => {
     return (
         <>
             <section className='mainPage pb-0 contact_page'>
-                <div className='container-fluid g-0 text-start primaryFont'>
+                <div className='container-fluid g-0 text-start primaryFont inner'>
                     <div className='row'>
                         <div className='col'>
                             <h2 className='headingLine'>Contact</h2>
@@ -26,10 +27,10 @@ const ContactPage = () => {
                                     <h4>Phone :</h4>
                                     <ul>
                                         <li>
-                                            <Link to="#" mailto="tel+452 666 386">+452 666 386</Link>
+                                            <Link to='tel:+923494486605'>+92 349 4486605</Link>
                                         </li>
                                         <li>
-                                            <Link to="#" mailto="tel+452 666 386">+452 666 386</Link>
+                                            <Link to='tel:+923258180448'>+92 325 8180448</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -39,13 +40,13 @@ const ContactPage = () => {
                                     <img className='img-fluid' src={email} alt={email} />
                                 </div>
                                 <div className='contact_info'>
-                                    <h4>Phone :</h4>
+                                    <h4>Email :</h4>
                                     <ul>
                                         <li>
-                                            <Link to="#" mailto="tel+452 666 386">+452 666 386</Link>
+                                            <Link to="mailto:frontendprofile@gmail.com">FrontEndProfile@gmail</Link>
                                         </li>
                                         <li>
-                                            <Link to="#" mailto="tel+452 666 386">+452 666 386</Link>
+                                            <Link to="mailto:fazalfazail732@gmail.com">fazalfazail732@gmail</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -55,13 +56,10 @@ const ContactPage = () => {
                                     <img className='img-fluid' src={map} alt={map} />
                                 </div>
                                 <div className='contact_info'>
-                                    <h4>Phone :</h4>
+                                    <h4>Address :</h4>
                                     <ul>
                                         <li>
-                                            <Link to="#" mailto="tel+452 666 386">+452 666 386</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#" mailto="tel+452 666 386">+452 666 386</Link>
+                                            <Link to="https://goo.gl/maps/5kP7FhjCntEFTPTr9?coh=178573&entry=tt">Thoker Niaz Baig ,<br/>Lahore, Pakistan</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -98,10 +96,13 @@ const ContactPage = () => {
                         </div>
 
                     </div>
+                    
 
 
                 </div>
+                <CopyRightFooter />
             </section>
+            
         </>
     )
 }

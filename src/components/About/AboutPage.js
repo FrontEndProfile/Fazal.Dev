@@ -4,8 +4,6 @@ import infoPhone from '../../assets/images/infoPhone.svg'
 import infoLocation from '../../assets/images/infoLocation.svg'
 import infoMail from '../../assets/images/infoMail.svg'
 import infoBirthDate from '../../assets/images/infoBirthDate.svg'
-// import aboutCardOne from '../../assets/images/aboutCardOne.svg'
-// import uicode from '../../assets/images/ui-design.png'
 import uicode from '../../assets/images/html_icon.png'
 import reactIcon from '../../assets/images/react-icon.png'
 import NGIcon from '../../assets/images/angualrIcon.png'
@@ -18,7 +16,7 @@ const AboutPage = () => {
     return (
         <>
             <section className='mainPage pb-0'>
-                <div className='container-fluid g-0 text-start primaryFont'>
+                <div className='container-fluid g-0 text-start primaryFont inner'>
                     <div className='row'>
                         <div className='col'>
                             <h2 className='headingLine'>About Me</h2>
@@ -68,7 +66,7 @@ const AboutPage = () => {
                                                         Location
                                                     </div>
                                                     <div className='infoDetails'>
-                                                        <Link to=''>Lahore, Pakistan</Link>
+                                                        <Link to='https://goo.gl/maps/5kP7FhjCntEFTPTr9?coh=178573&entry=tt'>Lahore, Pakistan</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -245,6 +243,7 @@ const AboutPage = () => {
                         </div>
                     </div>
                     <Slider />
+                    
 
 
                 </div>

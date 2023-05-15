@@ -27,15 +27,19 @@ $primary_Color : #F95054;
 .w-90 {
   width: 80%;
 }
+
 .w-80 {
   width: 80%;
 }
+
 .w-70 {
   width: 80%;
 }
+
 .w-60 {
   width: 80%;
 }
+
 .w-50 {
   width: 80%;
 }
@@ -86,13 +90,17 @@ $container-max-widths: (
 .mainPage {
   width: 100%;
   margin: 0;
-  padding-inline: 5rem;
   background-color: $white_color;
   border-radius: 16px;
   padding-block: 48px;
   margin-bottom: 64px;
   overflow: hidden;
+
+  .inner {
+    padding-inline: 5rem;
+  }
 }
+
 
 
 
@@ -162,10 +170,12 @@ $container-max-widths: (
   columns: $black_color;
   font-size: 25px;
   font-weight: 400;
+
   span {
     font-weight: 600;
   }
 }
+
 .chatForm_btn {
   width: 110px;
   height: 44px;
@@ -174,6 +184,7 @@ $container-max-widths: (
   font-weight: 600;
   border: 2px solid rgb(166, 166, 166);
   border-radius: 8px !important;
+
   &:hover {
     background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(221, 36, 118));
     background-size: 100% 100%;

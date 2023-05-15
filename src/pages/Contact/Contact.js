@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
-
 import ContactPage from '../../components/Contact/ContactPage'
-
+import CopyRightFooter from '../../components/CopyRightFooter/CopyRightFooter'
+import './Contact.scss'
 const Contact = () => {
   return (
     <>
@@ -11,7 +11,9 @@ const Contact = () => {
           <Header />
           <section className='introPageHome'>
             <ContactPage  />
+            {/* <CopyRightFooter /> */}
           </section>
+          
         </div>
       </main>
 
