@@ -1,5 +1,8 @@
 import React from 'react'
+import { db } from 'firebase';
 import Header from '../../components/Header/Header'
+import AddData from '../../components/UploadFile/AddData'
+
 const Works = () => {
   return (
     <>
@@ -8,6 +11,7 @@ const Works = () => {
         <Header />
         <section className='introPageHome'>
             <h2>Page On Working</h2>
+            <AddData  db={db}/>
         </section>
       </div>
     </main>
