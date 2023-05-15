@@ -29,7 +29,7 @@ function AddDataForm({ db }) {
         Age:
         <input type="number" value={age} onChange={(e) => setAge(e.target.value)} />
       </label>
-      <button type="submit">Add Data</button>
+      <button type="submit">Add Data Test</button>
     </form>
   );
 }
