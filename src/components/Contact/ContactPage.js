@@ -1,12 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import phone from '../../assets/images/phone-call.webp'
 import email from '../../assets/images/email.webp'
 import map from '../../assets/images/map.webp'
 import CopyRightFooter from '../CopyRightFooter/CopyRightFooter'
 import './ContactPage.scss'
+import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_xc2ovp5', 'template_1dirdn5', form.current, 'LzePQtbacytkkLn-C')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        document.querySelector('form').reset();
+    };
+
+
     return (
         <>
             <section className='mainPage pb-0 contact_page'>
@@ -74,20 +91,20 @@ const ContactPage = () => {
                                     <span>design work or partnerships.</span>
                                 </h3>
                                 {/* FORM  */}
-                                <form>
-                                    <div class="form-floating">
-                                        <input type="name" class="form-control" id="floatingInput" placeholder="Fill Name"/>
-                                            <label for="floatingInput">Name *</label>
+                                <form ref={form} onSubmit={sendEmail}>
+                                    <div className="form-floating">
+                                        <input type="name" className="form-control" id="floatingInput" placeholder="Fill Name" name='name'/>
+                                            <label htmlFor="floatingInput">Name *</label>
                                     </div>
 
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="floatingInput" placeholder="Fill Name"/>
-                                            <label for="floatingInput">Email *</label>
+                                    <div className="form-floating">
+                                        <input type="email" className="form-control" id="floatingInput" placeholder="Fill Name" name='email'/>
+                                            <label htmlFor="floatingInput">Email *</label>
                                     </div>
 
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="Fill Name"/>
-                                            <label for="floatingInput">Message *</label>
+                                    <div className="form-floating">
+                                        <input type="text" className="form-control" id="floatingInput" placeholder="Fill Name" name='message'/>
+                                            <label htmlFor="floatingInput">Message *</label>
                                     </div>
 
                                     <button type="submit" className="btn chatForm_btn">Submit</button>
