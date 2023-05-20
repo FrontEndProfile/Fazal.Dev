@@ -46,6 +46,7 @@
       left: 0;
       filter: drop-shadow(rgba(0, 0, 0, 0.04) 0px 10px 8px) drop-shadow(rgba(0, 0, 0, 0.1) 0px 4px 3px);
       padding-block: 1rem;
+      z-index: 1;
     }
   }
 
@@ -68,6 +69,10 @@
 
   .infoMain .infoMainGap {
     grid-row-gap: 14px;
+  }
+
+  .contact_page .contact_card {
+    max-width: 100%;
   }
 
 

@@ -35,7 +35,7 @@ const ContactPage = () => {
                     </div>
                     <div className='row g-0 layout_cards'>
 
-                        <div className='col-md-4'>
+                        <div className='col-lg-4 col-12'>
                             <div className='contact_card'>
                                 <div className='contact_img'>
                                     <img className='img-fluid' src={phone} alt={phone} />
@@ -84,7 +84,7 @@ const ContactPage = () => {
                         </div>
 
 
-                        <div className='col-md'>
+                        <div className='col-lg'>
                             <div className='chatForm'>
                                 <h3 className='chatForm_tittle'>
                                     I'm always open to discussing product <br />
