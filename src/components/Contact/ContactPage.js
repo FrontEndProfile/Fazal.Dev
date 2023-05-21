@@ -23,10 +23,9 @@ const ContactPage = () => {
         document.querySelector('form').reset();
     };
 
-
     return (
         <>
-            <section className='mainPage pb-0 contact_page'>
+            <section className='mainPage pb-0 contact_page fixCopyRight'>
                 <div className='container-fluid g-0 text-start primaryFont inner'>
                     <div className='row'>
                         <div className='col'>
