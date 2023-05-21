@@ -52,6 +52,12 @@
 
   .mainPage {
     border-radius: 0px;
+    padding-inline: 2.5rem;
+    padding-block: 2rem;
+    position: relative;
+    .inner {
+      padding-inline: 0;
+    }
   }
 
   .mainSection,
@@ -59,9 +65,7 @@
     padding-inline: 1rem;
   }
 
-  .mainPage {
-    padding-inline: 2.5rem;
-  }
+
 
   .WhoAm {
     grid-gap: 15px;
@@ -71,8 +75,22 @@
     grid-row-gap: 14px;
   }
 
-  .contact_page .contact_card {
-    max-width: 100%;
+  .contact_page {
+    .contact_card {
+      max-width: 100%;
+    }
+
+    .layout_cards {
+      gap: 8px;
+    }
+
+  }
+
+  .footerCopyRight {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
 
 
@@ -93,15 +111,19 @@
   .mainPage {
     padding-inline: 1rem;
   }
+  .contact_page .chatForm {
+    padding: 16px;
+  }
 }
 
 @media (max-width: 575.98px) {
   .WhoAm {
     padding-inline: 0px;
   }
+
   .headingLine {
     &::after {
       content: none;
     }
   }
-} 
+}
