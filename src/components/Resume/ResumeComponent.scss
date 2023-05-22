@@ -80,10 +80,8 @@
     }
 
 }
-.mainPage.ResumePage {
-    .container-fluid > .row{
-        padding-inline: 5rem;
-    }
+.ResumePage .ResumePage-inner {
+    padding-inline: 5rem;
 }
 .cardSection:has(.visualMain) {
     padding-bottom: 0 !important;

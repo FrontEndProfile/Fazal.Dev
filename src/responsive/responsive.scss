@@ -55,8 +55,13 @@
     padding-inline: 2.5rem;
     padding-block: 2rem;
     position: relative;
+
     .inner {
       padding-inline: 0;
+    }
+
+    .ResumePage-inner {
+      padding-inline: 2.5rem;
     }
   }
 
@@ -64,8 +69,6 @@
   .navbar.navbar-expand-lg>.container-fluid.g-0 {
     padding-inline: 1rem;
   }
-
-
 
   .WhoAm {
     grid-gap: 15px;
@@ -93,7 +96,13 @@
     width: 100%;
   }
 
+  .fixCopyRight {
+    padding-bottom: 120px !important;
+  }
 
+  .ResumePage .visualMain {
+    padding: 3rem 2.5rem;
+  }
 
 
 }
@@ -111,8 +120,20 @@
   .mainPage {
     padding-inline: 1rem;
   }
+
   .contact_page .chatForm {
     padding: 16px;
+  }
+
+  .ResumePage .visualMain {
+    padding: 3rem 1rem;
+    .visualMainHead {
+      text-align: start;
+    }
+  }
+
+  .mainPage .ResumePage-inner {
+    padding-inline: 1rem;
   }
 }
 
@@ -125,5 +146,9 @@
     &::after {
       content: none;
     }
+  }
+
+  .WhoAm .WhoAmContent {
+    width: calc(100% - 0px);
   }
 }

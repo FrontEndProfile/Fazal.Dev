@@ -7,7 +7,7 @@ const Resume = () => {
       <main className='wrapper'>
         <div className='container-lg g-0 h-100'>
           <Header />
-          <section className='introPageHome'>
+          <section className='introPageHome ResumePageMain'>
             <ResumeComponent />
           </section>
         </div>

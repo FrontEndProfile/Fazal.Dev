@@ -6,7 +6,7 @@ const ProgressVisual = () => {
         <>
             <div className='visualMain'>
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col-md'>
                         <h4 className='visualMainHead'>Working Skills</h4>
                         <div className='visualMainBar'>
                             <div className="d-flex justify-content-between align-items-center">
@@ -64,7 +64,7 @@ const ProgressVisual = () => {
                         </div>
                     </div>
                     
-                    <div className='col'>
+                    <div className='col-md'>
                         <h4 className='visualMainHead'>knowledge</h4>
                        <div className='visualMainTags'>
                         <div className='visualTag'>HTML</div>

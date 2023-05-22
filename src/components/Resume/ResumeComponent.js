@@ -7,7 +7,7 @@ const ResumeComponent = () => {
     return (
         <>
             <section className='mainPage pb-0 primaryFont ResumePage px-0'>
-                <div className='container-fluid g-0 text-start primaryFont'>
+                <div className='container-fluid g-0 text-start primaryFont ResumePage-inner'>
                     <div className='row'>
                         <div className='col'>
                             <h2 className='headingLine resumeHead'>Resume</h2>
@@ -73,7 +73,7 @@ const ResumeComponent = () => {
                         </div>
 
                         {/* COL  */}
-                        <div className='col-lg-4 col-md-6 col-12'> 
+                        <div className='col-lg-4 col-md-6 col-12'>
                             <div className='columnMain aw'>
                                 <div className='columnMainHead'>
                                     <span><img src={resumeEducation} alt='' /></span>
@@ -101,12 +101,11 @@ const ResumeComponent = () => {
                             </div>
                         </div>
                     </div>
-
+                </div>
+                <div className='container-fluid g-0'>
                     <div className='row cardSection px-0 g-0'>
                         <ProgressVisual />
                     </div>
-
-
                 </div>
             </section>
         </>
