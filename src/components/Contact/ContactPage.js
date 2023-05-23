@@ -85,9 +85,9 @@ const ContactPage = () => {
 
                         <div className='col-lg'>
                             <div className='chatForm'>
-                                <h3 className='chatForm_tittle'>
-                                    I'm always open to discussing product <br />
-                                    <span>design work or partnerships.</span>
+                                <h3 className='chatForm_tittle text-uppercase'>
+                                Reach Me Here<br />
+                                    <span>Start a Conversation</span>
                                 </h3>
                                 {/* FORM  */}
                                 <form ref={form} onSubmit={sendEmail}>
@@ -102,7 +102,8 @@ const ContactPage = () => {
                                     </div>
 
                                     <div className="form-floating">
-                                        <input type="text" className="form-control" id="floatingInput" placeholder="Fill Name" name='message'/>
+                                        {/* <input type="text" className="form-control" id="floatingInput" placeholder="Fill Name" name='message'/> */}
+                                        <textarea className="form-control shadow-none text_message" id="floatingInput" rows="5" cols="50" name='message'></textarea>
                                             <label htmlFor="floatingInput">Message *</label>
                                     </div>
 

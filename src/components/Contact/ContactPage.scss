@@ -115,4 +115,11 @@
     .layout_cards {
         gap: 80px;
     }
+    .text_message {
+        height: auto;
+        border: none;
+        border-bottom: 2px solid #b5b5b5;
+        background: transparent;
+        border-radius: 0;
+    }
 }
