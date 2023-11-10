@@ -13,6 +13,7 @@ import company3  from '../../assets/images/company3.png'
 import company4  from '../../assets/images/company4.png'
 import company5  from '../../assets/images/company5.png'
 import company6  from '../../assets/images/company6.png'
+// import company7  from '../../assets/images/sabre.png'
 
 const Slider = () => {
   return (
@@ -59,7 +60,10 @@ const Slider = () => {
               },
             }}
             >
-            <SwiperSlide className='item current'>
+            {/* <SwiperSlide className='item current'>
+              <img className='img-fluid' src={company7} alt='company1' />
+            </SwiperSlide> */}
+            <SwiperSlide className='item'>
               <img className='img-fluid' src={company1} alt='company1' />
             </SwiperSlide>
             <SwiperSlide className='item'>

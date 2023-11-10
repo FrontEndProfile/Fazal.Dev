@@ -16,26 +16,25 @@ const Intro = () => {
                     <div className='row'>
                         <div className='col'>
                             <div className='introPageFrame'>
-                                {/* <img src='https://via.placeholder.com/280x280/ffffff/000000?text=Profile' alt='' /> */}
-                                <img src={Fazalulrehman} alt={Fazalulrehman} />
+                                <img src={Fazalulrehman} alt='Fazal Ul Rehman front end developer profile pictures on portfolio.' />
                                 
                             </div>
-                            <h2 className='introHead primaryFont'>Fazal Ul Rehman</h2>
+                            <h1 className='introHead primaryFont'>Fazal Ul Rehman</h1>
                             <p className='introSubHead primaryFont'>UI Developer</p>
                             <ul className='d-flex align-items-center justify-content-center list-unstyled socialMain'>
                                 <li className='ms-0'>
                                     <Link to='mailto:fazalfazail732@gmail.com?subject=Offer UI-Developer' target='_blank'>
-                                        <img className='img-fluid' src={gmailIcon} alt='icon' />
+                                        <img className='img-fluid' src={gmailIcon} alt='fazal gmail account link provide for HR mangers' />
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to='https://github.com/FrontEndProfile/' target='_blank'>
-                                        <img src={githubIcon} alt='icon' />
+                                        <img src={githubIcon} alt='FrontEndProfile user on github see my all offline and online projects, see history of my works and code' />
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to='https://www.linkedin.com/in/fazal-ul-rehman/' target='_blank'>
-                                        <img src={linkedinIcon} alt='icon' />
+                                        <img src={linkedinIcon} alt='FAZAL UL REHMAN on linkedin profile , mostly hunting job this platform' />
                                     </Link>
                                 </li>
                             </ul>

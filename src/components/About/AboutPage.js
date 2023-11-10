@@ -10,6 +10,7 @@ import NGIcon from '../../assets/images/angualrIcon.png'
 import Webflow from '../../assets/images/webflow-icon.svg'
 import JsIcon from '../../assets/images/jsIcon.png'
 import GitIcon from '../../assets/images/giticon.png'
+import fazalAbout from '../../assets/images/fazal.jpeg'
 import Slider from '../Slider/Slider'
 import './AboutPage.scss'
 const AboutPage = () => {
@@ -24,7 +25,7 @@ const AboutPage = () => {
                     </div>
                     <div className='row WhoAm'>
                         <div className='col-md'>
-                            <img className='img-fluid WhoAmImage' src='https://via.placeholder.com/330x400/fff0f8/000000' alt='' />
+                            <img className='img-fluid WhoAmImage' src={fazalAbout} alt='Fazal Linkedin About Images used for portfolio | dev by asmco' />
                         </div>
                         <div className='col-md-8 primaryFont'>
                             <h1 className='WhoAmHead'>Who am i?</h1>
